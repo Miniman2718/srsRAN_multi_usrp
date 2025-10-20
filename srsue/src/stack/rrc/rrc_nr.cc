@@ -37,6 +37,10 @@ using namespace asn1;
 using namespace srsran;
 namespace srsue {
 
+
+using std::begin;
+using std::end;
+
 const char* rrc_nr::rrc_nr_state_text[] = {"IDLE", "CONNECTED", "CONNECTED-INACTIVE"};
 
 rrc_nr::rrc_nr(srsran::task_sched_handle task_sched_) :
